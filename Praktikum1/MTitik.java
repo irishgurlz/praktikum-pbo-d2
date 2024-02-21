@@ -7,8 +7,9 @@ public class MTitik {
         Titik t1, t2;
         int counterTitik;
 
-        t1 = new Titik(1, 2);
-        t2 = new Titik(3, 4);
+        t1 = new Titik(1.0, 2.0);
+        t2 = new Titik(3.0, 4.0);
+        t3 = new Titik(5.0, 6.0);
         counterTitik = Titik.getCounterTitik();
         t1.setAbsis(2);
 
