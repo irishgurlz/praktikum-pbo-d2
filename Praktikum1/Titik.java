@@ -1,3 +1,6 @@
+  // File : Titik.java          21/02/24
+  // Penulis : Aniqah Nursabrina
+  // Deskripsi : Kelas Titik yang merupakan sebuah titik dengan absis dan ordinat
 public class Titik {
     float absis, ordinat;
     static int counterTitik;
