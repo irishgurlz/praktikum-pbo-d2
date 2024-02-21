@@ -1,3 +1,7 @@
+  // File : MTitik.java          21/02/24
+  // Penulis : Aniqah Nursabrina
+  // Deskripsi : Main dari kelas titik
+
 public class MTitik {
     public static void main(String[] args) {
         Titik t1, t2;
