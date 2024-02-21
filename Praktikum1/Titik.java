@@ -2,18 +2,18 @@ public class Titik {
     float absis, ordinat;
     static int counterTitik;
 
-    Titik(float absisIn, float ordinatIn) {
-        absis = absisIn;
-        ordinat = ordinatIn;
-        counterTitik += 1;
+    Titik(float absis, float ordinat) {
+        counterTitik ++;
+        this.absis = absis;
+        this.ordinat = ordinat;
     }
 
-    public void setAbsis(float absisIn) {
-        absis = absisIn;
+    public void setAbsis(float absis) {
+        this.absis = absis;
     }
 
-    public void setOrdinat(float ordinatIn) {
-        ordinat = ordinatIn;
+    public void setOrdinat(float ordinat) {
+        this.ordinat = ordinat;
     }
 
     public float getAbsis() {
