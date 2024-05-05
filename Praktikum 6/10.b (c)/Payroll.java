@@ -3,3 +3,4 @@ public class Payroll {
         p.tampilData(); 
     }
 }
+
