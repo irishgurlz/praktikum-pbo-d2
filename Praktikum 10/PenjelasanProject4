@@ -1,0 +1,19 @@
+Penjelasan Project 4
+
+- Melakukan import List, set, dan Map. Karena set dan map adalah interface, maka kita juga harus mengimport HashSet dan HashMap
+
+- Membuat Method updateJumDataList untuk memberikan perubahan pada label DataList dan menampilkan size pada items. List memperbolehkan terjadinya duplikasi.
+-Membuat Method updateJumDataset untuk memberikan perubahan pada label DataMap dan menampilkan size pada itemSet. Set tidak memperbolehkan terjadinya duplikasi.
+- Membuat Method updateJumDataMap untuk memberikan perubahan pada label DataMap dan menampilkan size pada itemMap. Map memperbolehkan terjadinya duplikasi.
+
+- Mengatur event jButtonClearAll untuk menghapus semua data yang ada pada jListItem
+- Membuat method AddItem untuk menambahkan elemen namaItem pada jListItem
+- Mengatur event jButtonAdd dengan memanggil method AddItem
+- Mengatur event jButtonDelete untuk menghapus data pada ListItem yang deselect, lalu melakukan set Text menjadi""
+- Mengatur event jButtonUpdate untuk melakukan update data yang deselect
+- Mengatur event jButtonSaveList untuk melakukan operasi simpan data List pada ListItem dengan traversal i lalu akan mengupdate label data tersimpan dengan menggunakan method updateJumDataList
+- Mengatur event jButtonInserList untuk melakukan add Data List
+- mengatur event jButtonSaveSet untuk melakukan operasi simpan data pada ListItem dengan traversal i lalu akan menguodate label data tersimpan dengan menggunakan method updateJumDataSet.
+- Mengatur event jButtonInserSet untuk melakukan add Data Set
+- mengatur event jButtonSaveMap untuk melakukan operasi simpan data pada ListItem dengan traversal i lalu akan mengupdate label data tersimpan dengan menggunakan method updateJumDataMap. key akan ditambah selama iterasi. Jika tidak ada data maka key akan direset menjadi 0
+- mengatur event jButtonInsertMap untuk melakukan add Data Map
